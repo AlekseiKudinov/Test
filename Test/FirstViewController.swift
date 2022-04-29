@@ -2,17 +2,12 @@
 //  FirstViewController.swift
 //  Test
 //
-//  Created by Алексей Кудинов on 30.04.2022.
-//
-
-import Foundation
 import UIKit
-
+        view.backgroundColor = .systemYellow
 final class FirstViewController: UIViewController {
-    override func viewDidLoad() {
         super.viewDidLoad()
-
-        let subview = UIView()
         view.addSubview(subview)
+        let subview = UIView()
+    override func viewDidLoad() {
     }
 }
